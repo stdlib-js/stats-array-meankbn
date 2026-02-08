@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import meankbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meankbn@esm/index.mjs';
+import meankbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meankbn@v0.1.1-esm/index.mjs';
 ```
 
 #### meankbn( x )
@@ -94,7 +94,7 @@ The function has the following parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import meankbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meankbn@esm/index.mjs';
+import meankbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meankbn@v0.1.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
