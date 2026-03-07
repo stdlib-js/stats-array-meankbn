@@ -2,9 +2,43 @@
 
 > Package changelog.
 
-<section class="release" id="v0.0.1">
+<section class="release" id="unreleased">
 
-## 0.0.1 (2026-02-08)
+## Unreleased (2026-03-07)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`34f2f90`](https://github.com/stdlib-js/stdlib/commit/34f2f9060941e2dd7cd4840770547b1f8dc9f91f) - **bench:** refactor to use string interpolation in `stats/array/meankbn` [(#10787)](https://github.com/stdlib-js/stdlib/pull/10787) _(by Aniket Sonawane)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Aniket Sonawane
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.1">
+
+## 0.1.1 (2026-02-08)
 
 <section class="features">
 
