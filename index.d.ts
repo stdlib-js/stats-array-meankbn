@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,27 +16,32 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { NumericArray, Collection, AccessorArrayLike } from '@stdlib/types/array';
 
 /**
-* Compute the arithmetic mean of an array using an improved Kahan–Babuška algorithm.
+* Input array.
+*/
+type InputArray = NumericArray | Collection<number> | AccessorArrayLike<number>;
+
+/**
+* Computes the arithmetic mean of an array using an improved Kahan–Babuška algorithm.
 *
-* @module @stdlib/stats-array-meankbn
+* @param x - input array
+* @returns arithmetic mean
 *
 * @example
-* var meankbn = require( '@stdlib/stats-array-meankbn' );
-*
 * var x = [ 1.0, -2.0, 2.0 ];
 *
 * var v = meankbn( x );
 * // returns ~0.3333
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function meankbn( x: InputArray ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = meankbn;
